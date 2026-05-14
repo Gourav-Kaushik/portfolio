@@ -49,6 +49,28 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .certificate-card {
+    padding: 1.25rem;
+  }
+  .certificate-image-div {
+    height: 180px;
+  }
+  .card-title {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+  .card-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+  }
+}
 .certificate-card-footer {
   display: flex;
   align-items: center;

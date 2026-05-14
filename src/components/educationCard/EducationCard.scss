@@ -127,6 +127,14 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
+  .education-text-school {
+    white-space: normal;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.3;
+    text-overflow: unset;
+    overflow: visible;
+  }
   .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
